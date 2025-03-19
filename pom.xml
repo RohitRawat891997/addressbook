@@ -482,6 +482,11 @@
                             </additionalparam>
                         </configuration>
                     </plugin>
+		    <plugin>
+        		<groupId>org.apache.maven.plugins</groupId>
+        		<artifactId>maven-war-plugin</artifactId>
+        		<version>3.3.1</version> <!-- Latest version to resolve the error -->
+      		    </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-jxr-plugin</artifactId>
